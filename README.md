@@ -1,6 +1,6 @@
 # macOS useful settings
 
-## Git global config
+## Git global settings
 `git config --global --list`
 
 ```bash
@@ -12,3 +12,8 @@ commit.gpgsign=true
 tag.gpgsign=true
 push.autosetupremote=true
 ```
+
+`git config --global push.autoSetupRemote true`
+
+## JAVA_HOME and conditional $PATH modification
+`cat .zshrc`
