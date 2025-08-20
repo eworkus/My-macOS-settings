@@ -17,3 +17,9 @@ push.autosetupremote=true
 
 ## JAVA_HOME and conditional $PATH modification
 `cat .zshrc`
+
+
+## Other things
+
+### pwd with escaped spaces
+`printf "%q" "$(pwd)" | pbcopy`
