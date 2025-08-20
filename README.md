@@ -1,4 +1,6 @@
-# Git global config
+# macOS useful settings
+
+## Git global config
 `git config --global --list`
 
 ```bash
